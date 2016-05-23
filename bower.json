@@ -1,0 +1,20 @@
+{
+  "name": "project_start",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "normalize-css": "normalize.css#^4.1.1",
+    "modernizr": "^3.3.1"
+  }
+}

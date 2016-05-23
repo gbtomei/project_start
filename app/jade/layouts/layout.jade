@@ -1,0 +1,18 @@
+doctype html
+html(lang="ru-RU")
+  include head.jade
+
+  body
+    <!--[if lt IE 7]>
+    <p class="browsehappy">Вы используете <strong>устаревший</strong> браузер. Пожалуйста <a href="http://browsehappy.com/">обновите</a> его.</p>
+    <![endif]-->
+
+    //- Обёртка всей страницы ->
+    .wrapper
+
+      //- Основной контейнер по центру для генератора и настроек ->
+      .container
+      // END .container
+    // END .wrapper
+    //- Обёртка для подвала ->
+    include footer.jade
